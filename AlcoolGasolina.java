@@ -5,14 +5,14 @@ import java.util.Scanner;
 public class AlcoolGasolina {
     public static void main(String[] args) {
         // variáveis
-        double alccol, gasolina;
+        double alcool, gasolina;
         // objetos
         Scanner teclado = new Scanner(System.in);
         // entrada
         System.out.println("Álcool x Gasolina");
         System.out.print("Digite o valor do álcool: ");
         alcool = teclado.nextDouble();
-        System.out.print("Digite o valor do gasolina: ");
+        System.out.print("Digite o valor da gasolina: ");
         gasolina = teclado.nextDouble();
         // processamento e saída
         if (alcool < 0.7 * gasolina) {
