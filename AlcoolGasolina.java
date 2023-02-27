@@ -18,7 +18,7 @@ public class AlcoolGasolina {
         if (alcool < 0.7 * gasolina) {
             System.out.println("Abastecer com Álcool");
         } else {
-            System.out.println("Abastecer com Gasolina")
+            System.out.println("Abastecer com Gasolina");
         }
         teclado.close();
     }
